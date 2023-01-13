@@ -1,0 +1,41 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(51, 48, 48), rgb(184, 184, 184));
+    text-align: center;
+    color: white;
+}
+
+.box
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 70px;
+    border-radius: 25px;
+}
+
+.aCadas
+{
+    text-decoration: none;
+    color: white;
+    border: 3px solid dodgerblue;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+a:hover
+{
+    background-color: dodgerblue;
+}
+
+.aLog
+{
+    text-decoration: none;
+    color: white;
+    border: 3px solid dodgerblue;
+    border-radius: 15px;
+    padding: 25px;
+}
